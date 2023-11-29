@@ -1,0 +1,130 @@
+.projects {
+    &__content {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        padding: 20px 50px;
+        // color: var(--yellow-theme-sub-text-color);
+
+
+
+
+    }
+}
+
+.projects__content__main {
+    color: var(--yellow-theme-sub-text-color);
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+.projects__content__data {
+
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid var(--yellow-theme-main-color);
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    
+    div {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        padding: 25px;
+
+        
+        // &:hover .Hover_item{
+        //     opacity: 1;
+    
+        // }
+
+    }
+    #Image-part{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    // .Hover_item{
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     height: 400px;
+    //     width: 400px;
+    //     opacity: 0;
+    //     transition: 0.5s ease ;
+    //     background-color: var(--yellow-theme-main-color);
+    //     div{
+    //         position: absolute;
+    //         top: 50%;
+    //         left: 50%;
+    //         transform: translate(-50% , -50%);
+    //         text-align: center;
+
+            // p{
+            //     color: white;
+            //     margin: 0px;
+            //     font-size: 4rem;
+            //     position: relative;
+            //     overflow: hidden;
+            //     white-space: nowrap;
+
+            // }
+            // button{
+            //     cursor: pointer;
+            //     margin-top: 16px;
+            //     padding: 10px 70px;
+            //     font-size: 2rem;
+            //     background: transparent;
+            //     color: white;
+            //     border: 1.5px solid var(--yellow-theme-main-color);
+            //     border-radius: 4px;
+            //     font-weight: 500;
+
+
+            // }
+        // }
+    // }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.projects__content__main  {
+    display: block;
+    padding: 2px;
+    font-size: 14px;
+    margin-left: 0px;
+
+        }
+        .projects__content__data {
+            width: 300px;
+            height: 300px;
+            padding-top: 0px;
+        
+
+            p{
+                margin: 0;
+                padding: 0;
+            }
+
+            #Image-part{
+                height: 100px;
+                width: 100px;
+                margin: 0;
+                padding: 0;
+            }
+            h3{
+                padding: 0;
+                margin: 0;
+            }
+        }
+    
+}
